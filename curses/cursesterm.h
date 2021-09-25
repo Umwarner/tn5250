@@ -26,6 +26,8 @@
 extern "C" {
 #endif
 
+#include <term.h>
+
 #if USE_CURSES
 #ifdef HAVE_NCURSES_H
 #include <ncurses.h>
